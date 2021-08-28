@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* メインとなる全体のデザイン */
+h1.main-style {
+        padding: 0.5em;
+        color: #010101;
+        background: #eaf3ff;
+        border-bottom: solid 3px #516ab6;
+        font-weight: 800;
+}
+
+h2.main-style {
+        padding: 0.25em 0.5em;/*上下 左右の余白*/
+        color: #494949;/*文字色*/
+        background: transparent;/*背景透明に*/
+        border-left: solid 5px #7db4e6;/*左線*/
+}
+
+h3.main-style {
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    position: relative;
+    padding: 0.6em;
+    background:#e0edff;
+}
+
+
+#link a {
+    color: #0073bc;
+    text-decoration: none;
+}
+#link a:hover {
+    color: #b7dbf2;
+    text-decoration: underline;
+}
+
+#link a:hover img {
+    opacity: 0.5;
+}
+
+#linc a {
+    color: #0073bc;
+    text-decoration: none;
+}
+#linc a:hover {
+    color: #b7dbf2;
+    text-decoration: underline;
+}
+
+#linc a:hover img {
+    opacity: 0.5;
+}
+.example {
+    text-align: justify;
+    border: solid;
+}
+
+#ooo table {
+    border-collapse: collapse;
+}
+#ooo caption {
+    color: #008cca;
+}
+#ooo th,
+#ooo td {
+    border: 1px solid #8fbac8;
+    padding: 8px;
+}
+#ooo th {
+    color: #fff;
+    background: #008cca;
+}
+
+#aaa {
+    font-size: 18px;
+    line-height: 1em;
+}
+
+.item {
+    margin: 16px;
+    border: 1px solid #516ab6;
+    padding: 8px;
+    width: 250px;
+}
